@@ -1,0 +1,371 @@
+/* 
+    Theme: Project Directory Zone
+    Design and Developed By: Mahadi Hassan
+    Version: 1.v
+*/
+
+
+/* Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* 
+    Fonts Imported
+    1. Roboto Mono
+    2. Ubuntu Mono
+    3. IBM Plex Mono
+*/
+
+
+/*
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Font Awesome 5 Brands';
+    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Pro';
+*/
+
+
+/* CSS Varribale */
+
+:root {
+    --default-color: #000033;
+    --folder-icon-color: #E5C778;
+}
+
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    position: relative !important;
+}
+
+.h1-roboto-bold {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+
+.h1-ibm-bold {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+
+.h2-ibm-bold {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+}
+
+.h4-ibm-medium {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 28px;
+    color: #000000;
+}
+
+.btn-link {
+    font-size: 22px;
+    font-family: 'IBM Plex Mono', monospace;
+    display: block;
+}
+
+
+/* Figma design BTN Start */
+
+a.fig_designBtn {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rebeccapurple;
+    border-radius: 50%;
+}
+
+a i {
+    font-size: 22px;
+    color: #fff;
+}
+
+
+/* Figma design BTN End */
+
+
+/* Whatsapp Chat Start */
+
+.whatsapp_chat {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.whatsapp_chat i {
+    font-size: 62px;
+    color: #25D366;
+}
+
+a.skype_chat {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 999;
+}
+
+.skype_chat i {
+    font-size: 62px;
+    color: #00aff0;
+}
+
+
+/* Whatsapp Chat End */
+
+
+/* Main Section Start */
+
+.project-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 26px;
+    color: #000000;
+}
+
+.pt-b,
+.pt-wp,
+.pt-py,
+.pt-php,
+.pt-njs,
+.pt-vue,
+.pt-ajs,
+.pt-emtp,
+.pt-pydj,
+.pt-ccss,
+.pt-rctjs,
+.pt-phplav {
+    position: relative;
+}
+
+.pt-b::before {
+    position: absolute;
+    font-family: 'Font Awesome 5 Pro';
+    left: -36px;
+    top: 3px;
+    content: '\f658';
+    color: #080135;
+}
+
+.pt-emtp::before {
+    position: absolute;
+    font-family: 'Font Awesome 5 Pro';
+    left: -36px;
+    top: 3px;
+    content: '\f658';
+    color: #080135;
+}
+
+.pt-wp::before {
+    position: absolute;
+    content: '\f19a';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-rctjs::before {
+    position: absolute;
+    content: '\f41b';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-vue::before {
+    position: absolute;
+    content: '\f41f';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-njs::before {
+    position: absolute;
+    content: '\f3d3';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-ccss::before {
+    position: absolute;
+    content: '\f38b';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-py::before {
+    position: absolute;
+    content: '\f3e2';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-pydj::before {
+    position: absolute;
+    content: '\f3e2';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-php::before {
+    position: absolute;
+    content: '\f457';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-phplav::before {
+    position: absolute;
+    content: '\f3bd';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-ajs::before {
+    position: absolute;
+    content: '\f420';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+ul.project-list .plist a {
+    display: block;
+    position: relative;
+    font-family: 'IBM Plex Mono';
+    color: #000;
+    font-size: 20px;
+}
+
+a.project-list-link::before {
+    position: absolute;
+    content: '\f07c';
+    font-family: 'Font Awesome 5 Pro';
+    top: 0px;
+    left: -35px;
+    color: #E5C778;
+}
+
+li.plist {
+    padding: 5px;
+}
+
+.my-profile-link.text-center a {
+    font-size: 22px;
+    font-family: 'Ubuntu Mono';
+    color: #111;
+    position: relative;
+}
+
+.my-profile-link.text-center a::after {
+    position: absolute;
+    content: '\f35d';
+    font-family: 'Font Awesome 5 Pro';
+    top: 2px;
+    right: -25px;
+    font-size: 15px;
+}
+
+
+/* Main Section End */
+
+
+/* Footer Section Start */
+
+.footer_wrapper {
+    margin-top: 60px;
+}
+
+.footer_socialMedia {
+    text-align: right;
+}
+
+.designCredit {
+    font-size: 13px;
+}
+
+.designRight {
+    text-align: center;
+}
+
+.designRights {
+    font-size: 13px;
+}
+
+.footer_socialmedia {
+    text-align: right;
+}
+
+.socialmedida_items {
+    display: inline-block;
+}
+
+.socialmedia_item i {
+    font-size: 26px;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #0077b5;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.behance {
+    color: #053eff;
+}
+
+
+/* Footer Section End */

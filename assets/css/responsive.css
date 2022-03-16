@@ -1,0 +1,132 @@
+/* For 320px Width Device */
+
+@media only screen and (max-width: 320px) {
+    .h1-ibm-bold {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 600;
+        font-size: 28px;
+        color: #000000;
+    }
+    ul.project-list {
+        margin-left: 20px;
+    }
+    .njpp {
+        position: relative;
+        font-size: 26px;
+    }
+    .njpp::before {
+        position: absolute;
+        content: "\f3d3";
+        font-family: 'Font Awesome 5 Brands';
+        top: -2px;
+        left: 16px;
+        font-size: 33px;
+        font-weight: 100;
+        color: #68A063;
+    }
+    .my-profile-link.text-center a {
+        font-size: 22px;
+        font-family: 'Ubuntu Mono';
+        color: #111;
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .my-profile-link.text-center a::after {
+        position: absolute;
+        content: '\f35d';
+        font-family: 'Font Awesome 5 Pro';
+        top: 6px;
+        right: 75px;
+        font-size: 15px;
+    }
+}
+
+
+/* For 360px Width Device */
+
+@media only screen and (max-width: 360px) {
+    .h1-ibm-bold {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 600;
+        font-size: 28px;
+        color: #000000;
+    }
+    ul.project-list {
+        margin-left: 20px;
+    }
+    .njpp {
+        position: relative;
+        font-size: 26px;
+    }
+    .njpp::before {
+        position: absolute;
+        content: "\f3d3";
+        font-family: 'Font Awesome 5 Brands';
+        top: -2px;
+        left: 16px;
+        font-size: 33px;
+        font-weight: 100;
+        color: #68A063;
+    }
+    .my-profile-link.text-center a {
+        font-size: 22px;
+        font-family: 'Ubuntu Mono';
+        color: #111;
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .my-profile-link.text-center a::after {
+        position: absolute;
+        content: '\f35d';
+        font-family: 'Font Awesome 5 Pro';
+        top: 6px;
+        right: 75px;
+        font-size: 15px;
+    }
+}
+
+
+/* 375px */
+
+@media only screen and (max-width: 375px) {
+    .h1-ibm-bold {
+        font-size: 26px;
+    }
+    .project_list_box {
+        padding: 10px 35px;
+    }
+    ul.project-list .plist a {
+        display: block;
+        position: relative;
+        font-family: 'IBM Plex Mono';
+        color: #000;
+        font-size: 16px;
+    }
+    .whatsapp_chat {
+        width: 30px;
+        height: 30px;
+    }
+    .whatsapp_chat i {
+        font-size: 36px;
+    }
+    a.skype_chat {
+        width: 30px;
+        height: 30px;
+        bottom: 80px;
+        left: 320px;
+    }
+    .skype_chat i {
+        font-size: 36px;
+    }
+    .my-profile-link.text-center a {
+        font-size: 22px;
+        font-family: 'Ubuntu Mono';
+        color: #111;
+        position: relative;
+        margin-left: -25px;
+    }
+}
